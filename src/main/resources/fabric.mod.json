@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pjs_enhanced_gold_neoforge",
+  "version": "1.1.0",
+  "name": "Pj's Enhanced Gold",
+  "description": " Adds new golden items to Enhance how gold is used.",
+  "authors": [
+    "Pjluna"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.idk.PjsEnhancedGoldNeoforgeMod"
+    ],
+    "client": [
+      "net.mcreator.idk.PjsEnhancedGoldNeoforgeModClient"
+    ]
+  },
+  "mixins": [
+    "pjs_enhanced_gold_neoforge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

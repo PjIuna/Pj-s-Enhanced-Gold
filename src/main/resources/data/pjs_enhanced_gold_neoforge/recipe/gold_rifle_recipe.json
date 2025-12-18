@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": "minecraft:gold_block",
+    "b": "minecraft:gunpowder",
+    "c": "minecraft:enchanted_golden_apple",
+    "d": "minecraft:gold_nugget",
+    "e": "minecraft:arrow"
+  },
+  "result": {
+    "id": "pjs_enhanced_gold_neoforge:gold_rifle",
+    "count": 1
+  }
+}

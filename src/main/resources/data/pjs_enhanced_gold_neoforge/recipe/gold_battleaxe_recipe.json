@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aab",
+    "ac ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "minecraft:golden_axe",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "pjs_enhanced_gold_neoforge:gold_battleaxe",
+    "count": 1
+  }
+}

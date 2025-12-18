@@ -1,0 +1,18 @@
+{
+  "rifle_reload": {
+    "sounds": [
+      {
+        "name": "pjs_enhanced_gold_neoforge:gun-load-88938",
+        "stream": false
+      }
+    ]
+  },
+  "rifle_shoot": {
+    "sounds": [
+      {
+        "name": "pjs_enhanced_gold_neoforge:laser-gun-81720",
+        "stream": false
+      }
+    ]
+  }
+}

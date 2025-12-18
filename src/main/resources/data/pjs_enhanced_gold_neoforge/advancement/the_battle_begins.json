@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "id": "pjs_enhanced_gold_neoforge:gold_battleaxe"
+    },
+    "title": {
+      "translate": "advancements.the_battle_begins.title"
+    },
+    "description": {
+      "translate": "advancements.the_battle_begins.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_battle_begins_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pjs_enhanced_gold_neoforge:gold_battleaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "pjs_enhanced_gold_neoforge:bonk"
+}

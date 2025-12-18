@@ -1,0 +1,275 @@
+{
+  "mod_elements": [
+    {
+      "name": "GoldHammer",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_hammer.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_hammer.json",
+          "src/main/java/net/mcreator/idk/item/GoldHammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldHammerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_hammer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/advancement/recipes/gold_hammer_recipe.json",
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/recipe/gold_hammer_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpear",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_spear.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_spear.json",
+          "src/main/java/net/mcreator/idk/item/GoldSpearItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpearRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spear_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/recipe/gold_spear_recipe.json",
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/advancement/recipes/gold_spear_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldBattleaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_battleaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_battleaxe.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_battleaxe.json",
+          "src/main/java/net/mcreator/idk/item/GoldBattleaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldBattleaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_battleaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/recipe/gold_battleaxe_recipe.json",
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/advancement/recipes/gold_battleaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldHandsaw",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_handsaw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_handsaw.json",
+          "src/main/java/net/mcreator/idk/item/GoldHandsawItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_handsaw.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldHandsawRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_handsaw_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/recipe/gold_handsaw_recipe.json",
+          "src/main/resources/data/pjs_enhanced_gold_neoforge/advancement/recipes/gold_handsaw_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldRifleFixed",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rifle_fixed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idk/item/GoldRifleFixedItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_rifle_fixed.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_rifle_fixed.json"
+        ]
+      }
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idk/entity/BulletEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldRifleFixedEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rifle_fixed_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idk/procedures/GoldRifleFixedEntitySwingsItemProcedure.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "rifle_reload",
+      "files": [
+        "gun-load-88938"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "rifle_shoot",
+      "files": [
+        "laser-gun-81720"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:GoldRifleFixed",
+      "~CUSTOM:GoldHammer"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:GoldSpear"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:GoldHandsaw",
+      "~CUSTOM:GoldBattleaxe"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.idk.gold_hammer": "Golden Hammer",
+      "item.idk.gold_spear": "Golden Spear",
+      "item.idk.gold_battleaxe": "Golden Battleaxe",
+      "item.idk.gold_handsaw": "Golden Handsaw",
+      "item.pjs_enhanced_gold_neoforge.gold_hammer": "Golden Hammer",
+      "item.pjs_enhanced_gold_neoforge.gold_spear": "Golden Spear",
+      "item.pjs_enhanced_gold_neoforge.gold_battleaxe": "Golden Battleaxe",
+      "item.pjs_enhanced_gold_neoforge.gold_handsaw": "Golden Handsaw",
+      "item.pjs_enhanced_gold_neoforge.gold_rifle_fixed": "Gold Rifle Fixed",
+      "subtitles.rifle_reload": "",
+      "subtitles.rifle_shoot": ""
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/idk/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModItems.java",
+      "src/main/java/net/mcreator/idk/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModEntityRenderers.java",
+      "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModEntities.java",
+      "src/main/java/net/mcreator/idk/mixin/PlayerMixin.java",
+      "src/main/resources/pjs_enhanced_gold_neoforge.mixins.json",
+      "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModSounds.java",
+      "src/main/java/net/mcreator/idk/PjsEnhancedGoldNeoforgeMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/idk/event/BlockEvents.java",
+      "src/main/java/net/mcreator/idk/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/idk/PjsEnhancedGoldNeoforgeModClient.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/idk/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/idk/event/MiscEvents.java",
+      "src/main/java/net/mcreator/idk/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/idk/event/ItemEvents.java",
+      "src/main/resources/META-INF/pjs_enhanced_gold_neoforge.accesswidener",
+      "src/main/java/net/mcreator/idk/mixin/ItemStackMixin.java",
+      "src/main/resources/assets/pjs_enhanced_gold_neoforge/sounds.json",
+      "src/main/java/net/mcreator/idk/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/idk/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/idk/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/idk/event/LivingEntityEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "pjs_enhanced_gold_neoforge",
+    "modName": "Pj\u0027s Enhanced Gold",
+    "version": "1.1.0",
+    "description": " Adds new golden items to Enhance how gold is used.",
+    "author": "Pjluna",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.idk"
+  },
+  "mcreatorVersion": 202500345720
+}

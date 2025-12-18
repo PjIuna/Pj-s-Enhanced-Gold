@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "pjs_enhanced_gold_neoforge:item/handsaw"
+  }
+}

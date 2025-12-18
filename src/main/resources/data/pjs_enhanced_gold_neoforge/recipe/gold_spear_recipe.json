@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:golden_sword",
+    "b": "minecraft:gold_ingot",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "pjs_enhanced_gold_neoforge:gold_spear",
+    "count": 1
+  }
+}
