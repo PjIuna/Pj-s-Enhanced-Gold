@@ -1,22 +1,21 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "gun",
+    "texture": "goldriflefixed",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
-    "name": "Gold Rifle Fixed",
+    "name": "Gold Rifle",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      }
+      "COMBAT"
     ],
     "efficiency": 0.0,
     "attackSpeed": 0.0,
@@ -30,10 +29,9 @@
     "immuneToFire": true,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
-    "onRightClickedInAir": {
-      "name": "GoldRifleFixedEntitySwingsItem"
-    }
+    "onRightClickedInAir": "GoldRifleFixedEntitySwingsItem"
   }
 }

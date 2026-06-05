@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pjs_enhanced_gold_neoforge:item/image_1"
+    "layer0": "pjs_enhanced_gold_neoforge:item/goldspearnewtext"
   }
 }

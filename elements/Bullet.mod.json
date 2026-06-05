@@ -1,16 +1,13 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "projectile",
   "definition": {
-    "projectileItem": {
-      "value": "Items.GOLD_NUGGET"
-    },
+    "projectileItem": "Items.GOLD_NUGGET",
     "showParticles": false,
-    "actionSound": {
-      "value": "CUSTOM:rifle_shoot"
-    },
+    "actionSound": "CUSTOM:rifle_shoot",
     "igniteFire": false,
     "disableGravity": false,
+    "disableDiscarding": false,
     "power": 3.0,
     "damage": 14.0,
     "knockback": 1,

@@ -1,14 +1,12 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.GOLD_INGOT"
-      }
+      "Items.GOLD_INGOT"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLDEN_AXE"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.GOLDEN_AXE",
+      "Items.GOLD_INGOT",
+      "Items.STICK",
+      "",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GoldBattleaxe"
-    },
+    "recipeReturnStack": "CUSTOM:GoldBattleaxe",
     "name": "gold_battleaxe_recipe",
     "namespace": "mod"
   }

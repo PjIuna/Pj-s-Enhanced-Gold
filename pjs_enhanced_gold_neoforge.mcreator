@@ -8,8 +8,8 @@
       "registry_name": "gold_hammer",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_hammer.json",
           "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_hammer.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_hammer.json",
           "src/main/java/net/mcreator/idk/item/GoldHammerItem.java"
         ]
       }
@@ -36,8 +36,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_spear.json",
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_spear.json",
-          "src/main/java/net/mcreator/idk/item/GoldSpearItem.java"
+          "src/main/java/net/mcreator/idk/item/GoldSpearItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_spear.json"
         ]
       }
     },
@@ -62,9 +62,9 @@
       "registry_name": "gold_battleaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_battleaxe.json",
           "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_battleaxe.json",
-          "src/main/java/net/mcreator/idk/item/GoldBattleaxeItem.java"
+          "src/main/java/net/mcreator/idk/item/GoldBattleaxeItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_battleaxe.json"
         ]
       }
     },
@@ -89,9 +89,9 @@
       "registry_name": "gold_handsaw",
       "metadata": {
         "files": [
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_handsaw.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_handsaw.json",
           "src/main/java/net/mcreator/idk/item/GoldHandsawItem.java",
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_handsaw.json"
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_handsaw.json"
         ]
       }
     },
@@ -116,9 +116,9 @@
       "registry_name": "gold_rifle_fixed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/idk/item/GoldRifleFixedItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_rifle_fixed.json",
           "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_rifle_fixed.json",
-          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_rifle_fixed.json"
+          "src/main/java/net/mcreator/idk/item/GoldRifleFixedItem.java"
         ]
       }
     },
@@ -171,6 +171,163 @@
           "src/main/java/net/mcreator/idk/procedures/GoldRifleFixedEntitySwingsItemProcedure.java"
         ]
       }
+    },
+    {
+      "name": "GoldRocketLauncher",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rocket_launcher",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idk/item/GoldRocketLauncherItem.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_rocket_launcher.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_rocket_launcher.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldRocketLauncherEntitySwingsItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rocket_launcher_entity_swings_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idk/procedures/GoldRocketLauncherEntitySwingsItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldRocketProj",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rocket_proj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idk/entity/GoldRocketProjEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpider",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/idk/entity/GoldSpiderEntity.java",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/items/gold_spider_spawn_egg.json",
+          "src/main/resources/assets/pjs_enhanced_gold_neoforge/models/item/gold_spider_spawn_egg.json",
+          "src/main/java/net/mcreator/idk/client/renderer/GoldSpiderRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldRocketProjProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rocket_proj_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idk/procedures/GoldRocketProjProjectileHitsBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldRocketProjWhileProjectileFlyingTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_rocket_proj_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idk/procedures/GoldRocketProjWhileProjectileFlyingTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "GoldSpiderEntityDies",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_spider_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/idk/procedures/GoldSpiderEntityDiesProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -190,19 +347,36 @@
       ],
       "category": "master",
       "subtitle": ""
+    },
+    {
+      "name": "rpglaunch",
+      "files": [
+        "rpglaunch"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "rpghit",
+      "files": [
+        "rpghit"
+      ],
+      "category": "master",
+      "subtitle": ""
     }
   ],
   "tag_elements": {
     "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:GoldRifleFixed",
-      "~CUSTOM:GoldHammer"
+      "~GoldRocketLauncher@CUSTOM:GoldRocketLauncher",
+      "~GoldRifleFixed@CUSTOM:GoldRifleFixed",
+      "~GoldHammer@CUSTOM:GoldHammer"
     ],
     "ITEMS:minecraft:swords": [
-      "~CUSTOM:GoldSpear"
+      "~GoldSpear@CUSTOM:GoldSpear"
     ],
     "ITEMS:minecraft:axes": [
-      "~CUSTOM:GoldHandsaw",
-      "~CUSTOM:GoldBattleaxe"
+      "~GoldHandsaw@CUSTOM:GoldHandsaw",
+      "~GoldBattleaxe@CUSTOM:GoldBattleaxe"
     ]
   },
   "tab_element_order": {},
@@ -216,38 +390,44 @@
       "item.pjs_enhanced_gold_neoforge.gold_spear": "Golden Spear",
       "item.pjs_enhanced_gold_neoforge.gold_battleaxe": "Golden Battleaxe",
       "item.pjs_enhanced_gold_neoforge.gold_handsaw": "Golden Handsaw",
-      "item.pjs_enhanced_gold_neoforge.gold_rifle_fixed": "Gold Rifle Fixed",
+      "item.pjs_enhanced_gold_neoforge.gold_rifle_fixed": "Gold Rifle",
       "subtitles.rifle_reload": "",
-      "subtitles.rifle_shoot": ""
+      "subtitles.rifle_shoot": "",
+      "item.pjs_enhanced_gold_neoforge.gold_rocket_launcher": "Gold Rocket Launcher",
+      "subtitles.rpg_shoot": "",
+      "item.pjs_enhanced_gold_neoforge.gold_spider_spawn_egg": "Gold Spider Spawn Egg",
+      "entity.pjs_enhanced_gold_neoforge.gold_spider": "Gold Spider",
+      "subtitles.rpglaunch": "",
+      "subtitles.rpghit": ""
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/idk/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/idk/mixin/ServerPlayerMixin.java",
       "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModItems.java",
-      "src/main/java/net/mcreator/idk/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModEntityRenderers.java",
       "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModEntities.java",
-      "src/main/java/net/mcreator/idk/mixin/PlayerMixin.java",
-      "src/main/resources/pjs_enhanced_gold_neoforge.mixins.json",
       "src/main/java/net/mcreator/idk/init/PjsEnhancedGoldNeoforgeModSounds.java",
-      "src/main/java/net/mcreator/idk/PjsEnhancedGoldNeoforgeMod.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/idk/event/BlockEvents.java",
-      "src/main/java/net/mcreator/idk/mixin/ExperienceOrbMixin.java",
       "src/main/java/net/mcreator/idk/PjsEnhancedGoldNeoforgeModClient.java",
+      "src/main/java/net/mcreator/idk/PjsEnhancedGoldNeoforgeMod.java",
+      "src/main/resources/META-INF/pjs_enhanced_gold_neoforge.classtweaker",
+      "src/main/java/net/mcreator/idk/mixin/BlockItemMixin.java",
+      "src/main/resources/pjs_enhanced_gold_neoforge.mixins.json",
+      "src/main/java/net/mcreator/idk/mixin/ExperienceOrbMixin.java",
       "src/main/resources/fabric.mod.json",
       "src/main/java/net/mcreator/idk/mixin/CommandsMixin.java",
-      "src/main/java/net/mcreator/idk/event/MiscEvents.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/idk/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/idk/event/BlockEvents.java",
+      "src/main/java/net/mcreator/idk/event/MiscEvents.java",
+      "src/main/java/net/mcreator/idk/event/LivingEntityEvents.java",
       "src/main/java/net/mcreator/idk/event/ItemEvents.java",
-      "src/main/resources/META-INF/pjs_enhanced_gold_neoforge.accesswidener",
-      "src/main/java/net/mcreator/idk/mixin/ItemStackMixin.java",
-      "src/main/resources/assets/pjs_enhanced_gold_neoforge/sounds.json",
+      "src/main/java/net/mcreator/idk/mixin/PlayerMixin.java",
       "src/main/java/net/mcreator/idk/mixin/BoneMealItemMixin.java",
+      "src/main/resources/assets/pjs_enhanced_gold_neoforge/sounds.json",
       "src/main/java/net/mcreator/idk/mixin/LivingEntityMixin.java",
-      "src/main/java/net/mcreator/idk/mixin/BlockItemMixin.java",
-      "src/main/java/net/mcreator/idk/event/LivingEntityEvents.java"
+      "src/main/java/net/mcreator/idk/mixin/ItemStackMixin.java"
     ]
   },
   "foldersRoot": {
@@ -257,7 +437,7 @@
   "workspaceSettings": {
     "modid": "pjs_enhanced_gold_neoforge",
     "modName": "Pj\u0027s Enhanced Gold",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": " Adds new golden items to Enhance how gold is used.",
     "author": "Pjluna",
     "websiteURL": "https://mcreator.net",
@@ -267,9 +447,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "fabric-1.21.8",
+    "currentGenerator": "fabric-26.1.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.idk"
   },
-  "mcreatorVersion": 202500345720
+  "mcreatorVersion": 202600222416
 }

@@ -1,28 +1,22 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "tool",
   "definition": {
     "toolType": "Pickaxe",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "download",
+    "texture": "goldhamma",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "Golden Hammer",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "TOOLS"
-      },
-      {
-        "value": "COMBAT"
-      },
-      {
-        "value": "CUSTOM:EnhancedGold"
-      }
+      "TOOLS",
+      "COMBAT"
     ],
     "efficiency": 15.0,
     "attackSpeed": 2.5,
@@ -36,6 +30,7 @@
     "immuneToFire": false,
     "blockDropsTier": "GOLD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

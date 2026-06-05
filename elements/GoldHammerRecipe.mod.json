@@ -1,14 +1,12 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.GOLD_INGOT"
-      }
+      "Items.GOLD_INGOT"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "EQUIPMENT",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLDEN_PICKAXE"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "Items.GOLDEN_PICKAXE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": ""
-      }
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.GOLD_INGOT",
+      "Items.GOLDEN_PICKAXE",
+      "Items.STICK",
+      "Items.GOLDEN_PICKAXE",
+      "",
+      "Items.STICK",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:GoldHammer"
-    },
+    "recipeReturnStack": "CUSTOM:GoldHammer",
     "name": "gold_hammer_recipe",
     "namespace": "mod"
   }

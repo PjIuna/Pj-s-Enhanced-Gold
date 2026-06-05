@@ -7,7 +7,13 @@
   "item.pjs_enhanced_gold_neoforge.gold_spear": "Golden Spear",
   "item.pjs_enhanced_gold_neoforge.gold_battleaxe": "Golden Battleaxe",
   "item.pjs_enhanced_gold_neoforge.gold_handsaw": "Golden Handsaw",
-  "item.pjs_enhanced_gold_neoforge.gold_rifle_fixed": "Gold Rifle Fixed",
+  "item.pjs_enhanced_gold_neoforge.gold_rifle_fixed": "Gold Rifle",
   "subtitles.rifle_reload": "",
-  "subtitles.rifle_shoot": ""
+  "subtitles.rifle_shoot": "",
+  "item.pjs_enhanced_gold_neoforge.gold_rocket_launcher": "Gold Rocket Launcher",
+  "subtitles.rpg_shoot": "",
+  "item.pjs_enhanced_gold_neoforge.gold_spider_spawn_egg": "Gold Spider Spawn Egg",
+  "entity.pjs_enhanced_gold_neoforge.gold_spider": "Gold Spider",
+  "subtitles.rpglaunch": "",
+  "subtitles.rpghit": ""
 }

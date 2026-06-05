@@ -1,38 +1,47 @@
 plugins {
-    id 'fabric-loom' version '1.11-SNAPSHOT'
+    id 'net.fabricmc.fabric-loom' version '1.16-SNAPSHOT'
 }
 
 version = '1.0'
-group = 'com.yourname'
-base.archivesName = 'modid'
-actualmodid = 'pjs_enhanced_gold_neoforge'
+base.archivesName = "modid"
 
 loom {
-    mixin {
-        defaultRefmapName = actualmodid + ".refmap.json"
-    }
+// The following code makes impossible to setup Gradle projects
+//    mixin {
+//        useLegacyMixinAp = true
+//        defaultRefmapName = actualmodid + ".refmap.json"
+//    }
 
-    if (file("src/main/resources/META-INF/pjs_enhanced_gold_neoforge.accesswidener").exists())
-        accessWidenerPath = file("src/main/resources/META-INF/pjs_enhanced_gold_neoforge.accesswidener")
+    if (file("src/main/resources/META-INF/pjs_enhanced_gold_neoforge.classtweaker").exists())
+        accessWidenerPath = file("src/main/resources/META-INF/pjs_enhanced_gold_neoforge.classtweaker")
 }
 
 dependencies {
-    minecraft "com.mojang:minecraft:1.21.8"
-    mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:0.17.2"
+    minecraft "com.mojang:minecraft:26.1.2"
+    implementation "net.fabricmc:fabric-loader:0.19.3"
 
-    //Fabric api
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.133.4+1.21.8"
+    // Fabric API
+    implementation "net.fabricmc.fabric-api:fabric-api:0.150.0+26.1.2"
+}
+
+// We need to do this because MCreator doesn't allow to split armor textures in multiple folders
+build {
+    doLast {
+        copy {
+            from 'src/main/resources/assets/dev_fabric_2612/textures/entity/equipment/humanoid/'
+            into 'src/main/resources/assets/dev_fabric_2612/textures/entity/equipment/humanoid_leggings/'
+        }
+    }
 }
 
 tasks.withType(JavaCompile).configureEach {
-    it.options.release = 21
+    it.options.release = 25
 }
 
 java {
     withSourcesJar()
-    sourceCompatibility = JavaVersion.VERSION_21
-    targetCompatibility = JavaVersion.VERSION_21
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
 }
 
 apply from: 'mcreator.gradle'

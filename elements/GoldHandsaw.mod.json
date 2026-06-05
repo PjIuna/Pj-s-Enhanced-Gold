@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
@@ -10,19 +10,14 @@
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "Golden Handsaw",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      },
-      {
-        "value": "TOOLS"
-      },
-      {
-        "value": "CUSTOM:EnhancedGold"
-      }
+      "COMBAT",
+      "TOOLS",
+      "CUSTOM:EnhancedGold"
     ],
     "efficiency": 12.0,
     "attackSpeed": 3.0,
@@ -36,6 +31,7 @@
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

@@ -1,25 +1,21 @@
 {
-  "_fv": 79,
+  "_fv": 86,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "image_1",
+    "texture": "goldspearnewtext",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "guiTexture": "",
     "name": "Golden Spear",
+    "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "COMBAT"
-      },
-      {
-        "value": "CUSTOM:EnhancedGold"
-      }
+      "COMBAT"
     ],
     "efficiency": 4.0,
     "attackSpeed": 2.0,
@@ -33,6 +29,7 @@
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],
+    "attributeModifiers": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }
